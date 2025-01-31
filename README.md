@@ -56,7 +56,10 @@ A Logistic Regression model was applied to predict Titanic passengers' survival 
 🔹 Test dataset: 78%
 
 ✔ Precision, Recall, and F1 Score:
+
 🔹 Small families had a higher survival probability.
+
 🔹 First-class passengers had a better chance of survival.
+
 🔹 Gender played a significant role - women had a higher survival probability than men.
 
