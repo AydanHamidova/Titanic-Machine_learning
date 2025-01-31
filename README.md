@@ -16,23 +16,33 @@ Key findings include:
 2. Data Cleaning and Feature Engineering
 
 💡 Filling Missing Values:
+
 🔹 Age column - filled with the mean age value.
+
 🔹 Embarked column - filled with the most frequently occurring value.
+
 🔹 Cabin information - extracted the first letter to create a new column, "Deck."
 
 💡 New Features Created:
+
 🔹 FamilySize - indicates the size of a passenger's family.
+
 🔹 FamilyGroup - categorizes passengers as single, small, or large families.
+
 🔹 HasCabin - a binary column indicating whether a passenger had a cabin number.
 
 💡 Correlation Analysis and Feature Reduction:
+
 🔹 FamilyGroup_small and FamilyGroup_single had a high correlation of -0.86. FamilyGroup_small was retained, and the other was removed.
+
 🔹 SibSp and Parch columns were removed since FamilySize was created.
 
 3. Scaling and Encoding Data
 
 🔹 StandardScaler was used to normalize Age and Fare columns.
+
 🔹 Label Encoding was applied to convert Sex and Embarked into numeric values.
+
 🔹 One-hot encoding was used for FamilyGroup categories.
 
 4. Machine Learning Model Development
@@ -40,7 +50,9 @@ Key findings include:
 A Logistic Regression model was applied to predict Titanic passengers' survival probabilities.
 
 ✔ Model Accuracy (Accuracy Score):
+
 🔹 Training dataset: 81%
+
 🔹 Test dataset: 78%
 
 ✔ Precision, Recall, and F1 Score:
