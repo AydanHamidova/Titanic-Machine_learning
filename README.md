@@ -6,8 +6,11 @@ Recently, I worked on analyzing the famous Titanic disaster dataset to build a m
 
 First, I loaded the train.csv and test.csv datasets using the Pandas library and explored their structure. 
 Key findings include:
+
 ✅ Age, Cabin, and Embarked columns contain missing values.
+
 ✅ Pclass (Ticket class), Fare (Ticket price), and Sex significantly influence survival probability.
+
 ✅ I created a new feature, FamilySize, by summing the SibSp and Parch columns.
 
 2. Data Cleaning and Feature Engineering
