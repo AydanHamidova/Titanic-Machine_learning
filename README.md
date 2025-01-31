@@ -1,2 +1,2 @@
-# Titanic-Machine_learning
+# Titanic-Machine learning
 Titanic Survival Prediction
